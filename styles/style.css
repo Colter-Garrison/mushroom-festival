@@ -104,7 +104,16 @@ main .forest {
     border: solid 1px black;
     background-color: white;
     height: fit-content;
-    padding: 50px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.berry-button {
+    text-align: center;
+    border: solid 1px black;
+    background-color: white;
+    height: fit-content;
+    padding: 25px;
     border-radius: 25px;
 }
 
