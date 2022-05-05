@@ -41,7 +41,7 @@ addMushroomButton.addEventListener('click', () => {
 });
 
 addFriendButton.addEventListener('click', () => {
-    const name = friendInputEl.value;
+    const name = friendInputEl.value || Math.random().toString(36).slice(2, 7);
     const newFriend = { name, satisfaction: 1 };
     friendData.push(newFriend);
     friendInputEl.textContent = ' ';
