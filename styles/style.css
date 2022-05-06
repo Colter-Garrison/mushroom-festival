@@ -104,7 +104,16 @@ main .forest {
     border: solid 1px black;
     background-color: white;
     height: fit-content;
-    padding: 50px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.berry-button {
+    text-align: center;
+    border: solid 1px black;
+    background-color: white;
+    height: fit-content;
+    padding: 25px;
     border-radius: 25px;
 }
 
@@ -201,5 +210,5 @@ footer {
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../assets/porcini.png')
+    background-image: url('../assets/morel.png')
 }
